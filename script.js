@@ -1,6 +1,6 @@
 //O JavaScript é uma linguagem WEB
 
-//Variáveis - Valores armazenados na memória do computador
+//Variáveis - Valores armazenados na memória do computadkor
 
 //Funções - Blocos de código 
 
