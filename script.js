@@ -14,6 +14,19 @@ function carregar(){
     var minutos = data.getMinutes()
     
     msg.innerHTML = `Agora são ${hora}:${minutos}Am`
+if(hora >=0 && hora <12){
+    img.src ='manha.png'
+    document.body.style.background = '#ffcad4'
 }
+else if(hora >= 12 && hora < 18){
+    img.src ='tarde.png'
+    document.body.style.background = '#ff8fab'
+}
+else{
+    mg.src ='noite.png'
+    document.body.style.background = '#fb6f92'
+}
+}
+
 
 
